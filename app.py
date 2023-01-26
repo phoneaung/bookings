@@ -99,5 +99,10 @@ def register():
 
         # Redirect to login page after the account has been created
         return redirect("/")
+    
+# change password
+@app.route("/password")
+def password():
+    TODO
 
 
